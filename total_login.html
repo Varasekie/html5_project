@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html最终登录页面</title>
+</head>
+
+<body>
+    <h4>青春不常在，抓紧谈恋爱</h4>
+    <form action="#"></form>
+    <table>
+        <!-- the first row -->
+        <tr>
+            <td>性别</td>
+            <td><input type="radio" id="sex" name="sex">男<input type="radio" id="sex" name="sex">女</td>
+        </tr>
+        <!-- the second row -->
+        <tr>
+            <td>生日</td>
+            <td>
+                <select name="year" id="year">
+                    <option value="请选择年" selected>请选择年</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                </select>
+                <select name="month" id="month">
+                    <option value="选择月" selected>请选择月</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="day" id="day">
+                    <option value="选择日" selected>请选择日</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </td>
+        </tr>
+        <!-- the third row -->
+        <tr>
+            <td>
+                <label for="region">所在地区</label>
+            </td>
+            <td>
+                <input type="text" value="北京思密达" id="region">
+            </td>
+        </tr>
+        <!-- the fourth row -->
+        <tr>
+            <td>
+                <label for="marriage">婚姻状况</label>
+            </td>
+            <td>
+                <input type="radio" id="marriage" name="marriage">未婚
+                <input type="radio" id="marriage" name="marriage">已婚
+                <input type="radio" id="marriage" name="marriage">离婚
+            </td>
+        </tr>
+        <!-- the fifth row -->
+        <tr>
+            <td>
+                <label for="diploma">学历</label>
+            </td>
+            <td>
+                <select name="diploma" id="diploma">
+                    <option value="kindergarden" selected>幼儿园</option>
+                    <option value="primary">小学</option>
+                    <option value="junior">初中</option>
+                    <option value="senior">高中</option>
+                    <option value="college">大专</option>
+                    <option value="university">大学</option>
+                    <option value="graduate">研究生</option>
+                    <option value="doctorate">博士生</option>
+                </select>
+            </td>
+        </tr>
+        <!-- the sixth row -->
+        <tr>
+            <td>
+                <label for="type">喜欢类型</label>
+            </td>
+            <td>
+                <input type="checkbox" name="type" id="type">可爱
+                <input type="checkbox" name="type" id="type">妩媚
+                <input type="checkbox" name="type" id="type">小鲜肉
+                <input type="checkbox" name="type" id="type">都喜欢
+            </td>
+        </tr>
+        <!-- the seventh row -->
+        <tr>
+            <td>
+                <label for="introduction">自我介绍</label>
+            </td>
+            <td>
+                <textarea name="introduction" id="introduction" cols="30" rows="10">自我介绍</textarea>
+            </td>
+        </tr>
+        <!-- the eightth row -->
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="免费注册">
+            </td>
+        </tr>
+        <!-- the ninth row -->
+        <tr>
+            <td colspan="2">
+                <input type="radio" id="agreement">
+                <label for="agreement">我已经阅读并同意</label>
+                <br>
+                <a href="#">我是会员，直接登录</a>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <dl>
+        <dd>
+            <h3>我承诺</h3>
+        </dd>
+        <dd>年满18</dd>
+        <dd>严肃态度</dd>
+        <dd>真诚寻找</dd>
+    </dl>
+</body>
+
+</html>
